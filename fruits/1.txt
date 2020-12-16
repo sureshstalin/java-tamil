@@ -1,0 +1,22 @@
+Java IDE = Integrated Development Environment
+==================================
+Eclipse 
+IntelliJ
+STS - Spring Tool Suite 4
+NetBeans
+if(inputNumber == 0) {
+//			System.out.println("Zero is not allowed here " + inputNumber);
+//		}
+//		
+//		if(inputNumber > 100) {
+//			System.out.println("Your exceeding the limit " + inputNumber);
+//		}
+//
+//		if(inputNumber == 100) {
+//			
+//			System.out.println("Congratulation you have scored 100 " + inputNumber);
+//		}
+//		
+//		if(inputNumber >=1 && inputNumber <= 100) {
+//			System.out.println("You have scored between 1 to 100 " + inputNumber);
+//		}
