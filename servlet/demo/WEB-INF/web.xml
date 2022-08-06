@@ -34,6 +34,17 @@
     <servlet-class>ServletReqParamNames</servlet-class>
    </servlet>
    
+   <servlet>
+    <servlet-name>values</servlet-name>
+    <servlet-class>ServletReqParamValue</servlet-class>
+   </servlet>
+ 
+    <servlet>
+    <servlet-name>map</servlet-name>
+    <servlet-class>ServletReqParamMap</servlet-class>
+   </servlet>
+   
+   
 
 
   <servlet-mapping>
@@ -54,6 +65,16 @@
     <servlet-mapping>
     <servlet-name>names</servlet-name>
       <url-pattern>/names</url-pattern> <!-- http://localhost:8080/demo/names -->
+  </servlet-mapping>
+  
+      <servlet-mapping>
+    <servlet-name>values</servlet-name>
+      <url-pattern>/values</url-pattern> <!-- http://localhost:8080/demo/values -->
+  </servlet-mapping>
+ 
+       <servlet-mapping>
+    <servlet-name>map</servlet-name>
+      <url-pattern>/map</url-pattern> <!-- http://localhost:8080/demo/map -->
   </servlet-mapping>
   
 </web-app>
